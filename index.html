@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="#post1">Mountains</a></li>
+          <li><a href="#post2">Technology</a></li>
+          <li><a href="#post3">Health</a></li>
+        </ul>
+      </nav>
+      <input type="text" id="searchBar" placeholder="Search blog posts..." onkeyup="searchPosts()" />
+    </header>
+
+    <main id="blogPosts">
+
+       <article id="post1" class="blog-post" data-category="Travel">
+        <h2>Exploring the Mountains</h2>
+        <p class="date">Published on: July 1, 2025</p>
+        <img src="images/mountains.jpg" alt="Mountains" />
+        <p>Mountains are a beautiful natural wonder. They offer breathtaking views, adventure sports, and a peaceful escape from urban life.</p>
+        <div class="tags">Tags: <span>#Travel</span>, <span>#Nature</span></div>
+        <div class="share">
+          <button onclick="share('Exploring the Mountains')">Share</button>
+        </div>
+        <div class="comments">
+          <h3>Comments</h3>
+          <div class="comment-list" id="comments-post1"></div>
+          <input type="text" placeholder="Your name" id="name-post1">
+          <textarea placeholder="Your comment" id="message-post1"></textarea>
+          <button onclick="submitComment('post1')">Submit</button>
+        </div>
+       </article>
+
+       <article id="post2" class="blog-post" data-category="Technology">
+        <h2>The Rise of AI</h2>
+        <p class="date">Published on: July 10, 2025</p>
+        <img src="images/ai.jpg" alt="AI Technology">
+        <p>Artificial Intelligence is transforming the world. From healthcare to entertainment, its applications are limitless and constantly evolving.</p>
+        <div class="tags">Tags: <span>#Technology</span>, <span>#AI</span></div>
+        <div class="share">
+          <button onclick="share('The Rise of AI')">Share</button>
+        </div>
+        <div class="comments">
+          <h3>Comments</h3>
+          <div class="comment-list" id="comments-post2"></div>
+          <input type="text" placeholder="Your name" id="name-post2">
+          <textarea placeholder="Your comment" id="message-post2"></textarea>
+          <button onclick="submitComment('post2')">Submit</button>
+        </div>
+       </article>
+
+       <article id="post3" class="blog-post" data-category="Health">
+        <h2>Healthy Living Tips</h2>
+        <p class="date">Published on: July 20, 2025</p>
+        <img src="images/health.jpg" alt="Healthy Lifestyle">
+        <p>Good health begins with a balanced diet, regular exercise, and mental well-being. Start small and stay consistent.</p>
+        <div class="tags">Tags: <span>#Health</span>, <span>#Lifestyle</span></div>
+        <div class="share">
+          <button onclick="share('Healthy Living Tips')">Share</button>
+        </div>
+        <div class="comments">
+          <h3>Comments</h3>
+          <div class="comment-list" id="message-post3"></div>
+          <input type="text" placeholder="Your name" id="name-post3">
+          <textarea placeholder="Your comment" id="message-post3"></textarea>
+          <button onclick="submitComment('post3')">Submit</button>
+        </div>
+       </article>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
