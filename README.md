@@ -15,19 +15,19 @@ A responsive blog website built using HTML, CSS, and JavaScript.
 ## 📁 Project Structure
 
 blog-website/
-  |
+  
   |-->index.html
-  |
+  
   |-->styles.css
-  |
+  
   |-->script.js
-  |
+  
   |-->images/
-     |
+     
      |-->mountains.jpg
-     |
+     
      |-->ai.jpg
-     |
+     
      |-->health.jpg
 
   |-->README.md
