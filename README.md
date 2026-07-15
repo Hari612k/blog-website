@@ -16,13 +16,13 @@ A responsive blog website built using HTML, CSS, and JavaScript.
 
 blog-website/
   
-  |-->index.html
+    |-->index.html
   
-  |-->styles.css
+    |-->styles.css
   
-  |-->script.js
+    |-->script.js
   
-  |-->images/
+    |-->images/
      
      |-->mountains.jpg
      
@@ -30,7 +30,7 @@ blog-website/
      
      |-->health.jpg
 
-  |-->README.md
+    |-->README.md
 
 ---
 
