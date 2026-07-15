@@ -24,11 +24,11 @@ blog-website/
   
     |-->images/
      
-     |-->mountains.jpg
+       |-->mountains.jpg
      
-     |-->ai.jpg
+       |-->ai.jpg
      
-     |-->health.jpg
+       |-->health.jpg
 
     |-->README.md
 
